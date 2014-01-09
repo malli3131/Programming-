@@ -1,0 +1,20 @@
+Creating a Maven Project with eclipse: These are the following steps...
+
+step1> mvn3 archetype:generate -DgroupId=com.naga -DartifcatId=NumberGenerator 
+-DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+The above command will create the project directory structure in the current directory..
+
+.
+|-- pom.xml
+`-- src
+    |-- main
+    |   `-- java
+    |       `-- com
+    |           `-- naga
+    |               `-- App.java
+    `-- test
+        `-- java
+            `-- com
+                `-- naga
+                    `-- AppTest.java
