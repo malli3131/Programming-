@@ -1,6 +1,9 @@
 Creating a Maven Project with eclipse: These are the following steps...
 
-step1> mvn3 archetype:generate -DgroupId=com.naga -DartifcatId=NumberGenerator 
+Step 1> To create a maven project, choose the directory to store the project directory and run the below command in the 
+        terminal.
+
+Cmd> mvn3 archetype:generate -DgroupId=com.naga -DartifcatId=NumberGenerator 
 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 The above command will create the project directory structure in the current directory..
@@ -18,3 +21,18 @@ The above command will create the project directory structure in the current dir
             `-- com
                 `-- naga
                     `-- AppTest.java
+
+
+Step 2> To enable this project in Eclipse IDE, run the following command in termonal
+
+Cmd> mvn3 eclipse:eclipse
+
+Step 3> Import the project into Eclipse.
+
+        File --> Import --> General --> Existing projects into workspace
+        
+Step 4> Write the application logic and save
+
+Step 5> Compile and package by using the following command
+
+Cmd> mvn3 package
